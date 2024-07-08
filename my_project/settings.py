@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-obtcui5@jluqdd0+e*4rnsu6ne*2p5edwlr#mdsruo)i+hp+j1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-emmaah-taketable-ltgcvt7hmir.ws-eu115.gitpod.io']
+ALLOWED_HOSTS = ['8000-emmaah-taketable-ltgcvt7hmir.ws-eu115.gitpod.io', '.herokuapp.com']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello_world',
+    'about',
 ]
 
 MIDDLEWARE = [
